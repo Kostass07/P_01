@@ -1,0 +1,98 @@
+@media (max-width: 762px){
+    header{
+        display: flex;
+    }
+
+    #hero h1{
+        font-size: 30px;
+    }
+
+    #hero p{
+        font-size: 15px;
+        width: 70%;
+    }
+
+    .content-btn{
+        gap: 60px;
+    }
+}
+
+@media (max-width: 912px){
+    #hero h1{
+        font-size: 40px;
+    }
+
+    #hero p{
+        font-size: 20px;
+        width: 70%;
+    }
+    
+    .content-btn{
+        gap: 60px;
+    }
+}
+
+@media (max-width: 630px){
+    header h1{
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width: 550px){
+    header h1{
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .navbar,
+    .navbar-list{
+        font-size: 14px;
+    }
+
+    .navbar-list i{
+        font-size: 12px;
+        width: 100%;
+
+    }
+    
+}
+
+@media (max-width: 376px){
+    header h1{
+        font-size: 14px;
+        width: 100%;
+    }
+    
+    .navbar,
+    .navbar-list{
+        font-size: 10px;
+    }
+
+    #hero h1{
+        font-size: 27rpx;
+        width: 88%;
+    }
+
+    #hero p{
+        font-size: 12px;
+    }
+
+    .content-btn{
+        gap: 10px;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnHero{
+        padding: 4px;
+        font-size: 10px;
+        align-items: center;
+    }
+
+    .btnHero i{
+        font-size: 12px;
+        align-items: center;
+    }
+}
